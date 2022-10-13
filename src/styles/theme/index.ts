@@ -10,6 +10,11 @@ export const {
   createTheme,
   config,
 } = createStitches({
+  media: {
+    bp1: '(min-width: 425px)',
+    bp2: '(min-width: 768px)',
+  },
+
   theme: {
     colors: {
       'base-background': '#202024',
